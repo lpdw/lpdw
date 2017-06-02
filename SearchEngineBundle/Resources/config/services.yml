@@ -1,0 +1,8 @@
+services:
+  app.insertfcv:
+    class: lpdw\SearchEngineBundle\Services\insertFCV
+    arguments: ["@doctrine.orm.entity_manager"]
+
+  app.featureValService:
+    class: lpdw\SearchEngineBundle\Services\FeatureValueService
+    arguments: ["@doctrine.orm.entity_manager"]
