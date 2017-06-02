@@ -6,7 +6,9 @@ Récuperer le bundle Search Engine
 
 Ajouter le bundle dans le Appkernel.php
 
-> new lpdw\SearchEngineBundle\lpdwSearchEngineBundle(),
+<pre><code>
+new lpdw\SearchEngineBundle\lpdwSearchEngineBundle(),
+</pre></code>
 
 Ajouter le bundle dans le rooting.yml
 
