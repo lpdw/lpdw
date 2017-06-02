@@ -10,7 +10,8 @@ Ajouter le bundle dans le Appkernel.php
 
 Ajouter le bundle dans le rooting.yml
 
-> lpdw_search_engine:
+<pre><code>lpdw_search_engine:
     resource: "@lpdwSearchEngineBundle/Controller/"<br>
-      type:     annotation<br>
-      prefix:   /<br>
+    type:     annotation<br>
+    prefix:   /<br>
+</pre></code>
